@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function(){
     console.log("well at least this works.");
     const cool = document.querySelector('p');
-    cool.innerHTML.replace("JavaScript is so cool. It lets me add text to my page programmatically.", "This is really cool!")
+    cool.innerHTML = "This is really cool!"
 });
 
 
